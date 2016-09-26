@@ -1,4 +1,15 @@
-## techne.epf
+# Eclipse Preferences
+# 
+#   Inclui configurações de:
+#   
+#     - preferences.json
+#     - java-codestyle-codetemplates.json
+#     - java-codestyle-formatter.json
+#     - java-editor-templates.json
+#     - javascript-codestyle-formatter.json
+#     - cleanup.json
+# 
+#   Gerado em 26-Sep-2016 09:59:45
 
 file_export_version=3.0
 
@@ -68,7 +79,7 @@ instance/org.eclipse.jdt.ui/sp_cleanup.make_parameters_final=false
 instance/org.eclipse.jdt.ui/sp_cleanup.make_private_fields_final=false
 instance/org.eclipse.jdt.ui/sp_cleanup.make_type_abstract_if_missing_method=false
 instance/org.eclipse.jdt.ui/sp_cleanup.make_variable_declarations_final=false
-instance/org.eclipse.jdt.ui/sp_cleanup.never_use_blocks=false
+instance/org.eclipse.jdt.ui/sp_cleanup.never_use_blocks=true
 instance/org.eclipse.jdt.ui/sp_cleanup.never_use_parentheses_in_expressions=false
 instance/org.eclipse.jdt.ui/sp_cleanup.on_save_use_additional_actions=false
 instance/org.eclipse.jdt.ui/sp_cleanup.organize_imports=true
@@ -84,7 +95,7 @@ instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces=false
 instance/org.eclipse.jdt.ui/sp_cleanup.remove_trailing_whitespaces_ignore_empty=false
 instance/org.eclipse.jdt.ui/sp_cleanup.remove_unnecessary_casts=false
 instance/org.eclipse.jdt.ui/sp_cleanup.remove_unnecessary_nls_tags=false
-instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_imports=false
+instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_imports=true
 instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_local_variables=false
 instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_fields=false
 instance/org.eclipse.jdt.ui/sp_cleanup.remove_unused_private_members=false
@@ -97,10 +108,10 @@ instance/org.eclipse.jdt.ui/sp_cleanup.use_blocks=false
 instance/org.eclipse.jdt.ui/sp_cleanup.use_blocks_only_for_return_and_throw=false
 instance/org.eclipse.jdt.ui/sp_cleanup.use_lambda=false
 instance/org.eclipse.jdt.ui/sp_cleanup.use_parentheses_in_expressions=false
-instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_field_access=false
 instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_field_access_only_if_necessary=false
-instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access=false
-instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access_only_if_necessary=false
+instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_field_access=true
+instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access_only_if_necessary=true
+instance/org.eclipse.jdt.ui/sp_cleanup.use_this_for_non_static_method_access=true
 instance/org.eclipse.jdt.ui/sp_cleanup.use_type_arguments=false
 instance/org.eclipse.m2e.core/eclipse.m2.defaultPomEditorPage=true
 instance/org.eclipse.m2e.core/eclipse.m2.defaultRuntime=EMBEDDED
@@ -199,9 +210,7 @@ instance/org.eclipse.wst.xml.core/indicateNoGrammar=0
 instance/org.eclipse.wst.xml.core/lineWidth=100
 @org.eclipse.core.runtime=3.11.0.v20150405-1723
 @org.eclipse.debug.ui=3.11.0.v20150514-0917
-@org.eclipse.jdt.core=3.11.1.v20150902-1521
 @org.eclipse.jdt.core=3.12.0.v20160516-2131
-@org.eclipse.jdt.ui=3.11.1.v20150827-1306
 @org.eclipse.jdt.ui=3.12.0.v20160525-1829
 @org.eclipse.m2e.core=1.6.2.20150902-0002
 @org.eclipse.ui=3.107.0.v20150507-1945
@@ -211,8 +220,6 @@ instance/org.eclipse.wst.xml.core/lineWidth=100
 @org.eclipse.ui.workbench=3.107.0.v20150510-1732
 @org.eclipse.wst.css.core=1.1.800.v201402172058
 @org.eclipse.wst.html.core=1.1.802.v201501312139
-@org.eclipse.wst.jsdt.core=1.3.400.v201504291620
 @org.eclipse.wst.jsdt.core=2.0.0.v201605251700
-@org.eclipse.wst.jsdt.ui=1.1.600.v201504291620
 @org.eclipse.wst.jsdt.ui=2.0.0.v201605262108
 @org.eclipse.wst.xml.core=1.1.902.v201501211904
